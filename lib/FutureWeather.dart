@@ -343,7 +343,7 @@ class _FutureWeatherState extends State<FutureWeather> {
                         Text(
                           "${mListWeather12h?[setMaxPosition(position)].main?.temp}°",
                           style: const TextStyle(
-                              fontSize: 52, color: Colors.white),
+                              fontSize: 42, color: Colors.white),
                         ),
                         const SizedBox(
                           height: 5,
